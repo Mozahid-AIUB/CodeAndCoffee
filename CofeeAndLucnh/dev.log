@@ -1,0 +1,998 @@
+
+> manus-office@0.1.0 dev
+> next dev
+
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.137:3000
+- Environments: .env.local
+✓ Ready in 886ms
+✓ Running next.config.ts took 83ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable.
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\next\\dist\\compiled\\react-server-dom-turbopack").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\next\\dist\\lib\\metadata\\generate").
+○ Compiling / ...
+ GET / 200 in 1201ms (next.js: 798ms, application-code: 403ms)
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\lucide-react\\dynamic.js").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.6s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\framer-motion\\dist\\cjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (3.6s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\motion\\dist\\motion.dev.js").
+ GET / 200 in 219ms (next.js: 5ms, application-code: 214ms)
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.137:3000
+- Environments: .env.local
+✓ Ready in 1501ms
+✓ Running next.config.ts took 131ms
+
+○ Compiling / ...
+ GET / 200 in 1375ms (next.js: 676ms, application-code: 699ms)
+ GET / 200 in 74ms (next.js: 3ms, application-code: 71ms)
+ GET / 200 in 164ms (next.js: 7ms, application-code: 157ms)
+✓ Compiled in 148ms
+✓ Compiled in 1696ms
+ GET / 200 in 201ms (next.js: 80ms, application-code: 121ms)
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\next\\dist\\compiled\\@next\\font\\dist\\google").
+ GET / 200 in 131ms (next.js: 3ms, application-code: 128ms)
+ GET / 200 in 184ms (next.js: 5ms, application-code: 179ms)
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:3:1
+Error: Module not found: Can't resolve '@/lib/i18n/provider'
+  [90m1 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m, [33mViewport[0m } [36mfrom[0m [32m"next"[0m;
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './lib/i18n/provider' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:4:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+  [90m2 |[0m [36mimport[0m { [33mInter[0m, [33mNoto_Sans_Bengali[0m } [36mfrom[0m [32m"next/font/google"[0m;
+  [90m3 |[0m [36mimport[0m { [33mI18nProvider[0m } [36mfrom[0m [32m"@/lib/i18n/provider"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { getLang } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"./globals.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m inter = [33mInter[0m({ variable: [32m"--font-latin"[0m, subsets: [[32m"latin"[0m], display: [32m"swap"[0m });
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/lib/i18n/server'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { getMessages } [36mfrom[0m [32m"@/lib/i18n/server"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { formatTime } [36mfrom[0m [32m"@/lib/dates"[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mPage[0m() {
+
+Import map: aliased to relative './lib/i18n/server' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 1229ms
+✓ Compiled in 485ms
+ GET / 200 in 187ms (next.js: 63ms, application-code: 124ms)
+ GET / 200 in 180ms (next.js: 9ms, application-code: 170ms)
+ GET / 200 in 103ms (next.js: 5ms, application-code: 98ms)
+ GET / 200 in 102ms (next.js: 11ms, application-code: 91ms)
+ GET / 200 in 61ms (next.js: 1.6ms, application-code: 59ms)
+✓ Compiled in 69ms
+✓ Compiled in 53ms
+✓ Compiled in 60ms
+✓ Compiled in 31ms
+✓ Compiled in 111ms
+✓ Compiled in 931ms
+ GET /login 404 in 1371ms (next.js: 1170ms, proxy.ts: 19ms, application-code: 182ms)
+ GET /login 404 in 1337ms (next.js: 1193ms, proxy.ts: 27ms, application-code: 118ms)
+ GET /login 404 in 364ms (next.js: 63ms, proxy.ts: 31ms, application-code: 271ms)
+ GET /login 404 in 347ms (next.js: 108ms, proxy.ts: 30ms, application-code: 209ms)
+✓ Compiled in 241ms
+ GET /login 404 in 591ms (next.js: 68ms, proxy.ts: 21ms, application-code: 502ms)
+ GET /login 404 in 641ms (next.js: 256ms, proxy.ts: 92ms, application-code: 293ms)
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\motion-dom\\dist\\es\\projection\\node").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\framer-motion\\dist\\es\\render\\html\\utils").
+○ Compiling /login ...
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\D:\\Way_To_Job\\MT-Project\\CofeeAndLucnh\\node_modules\\motion-dom\\dist\\es\\animation\\keyframes\\offsets").
+ GET /login 200 in 10.1s (next.js: 9.1s, proxy.ts: 35ms, application-code: 947ms)
+ GET /login 200 in 10.5s (next.js: 9.3s, proxy.ts: 24ms, application-code: 1122ms)
+ GET /login 200 in 5.3s (next.js: 4.7s, proxy.ts: 24ms, application-code: 604ms)
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="(auth)/log...">
+              <SegmentTrieNode>
+              <LoginPage>
+                <AuthShell>
+                  <main className="mx-auto fl...">
+                    <motion.div initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{duration:0.25, ...}}>
+                      <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                        <div>
+                        <div className="rounded-ca...">
+                          <LoginForm>
+                            <form>
+                            <p className="mt-5 text-...">
++                             New here?
+-                             {" "}
+                              ...
+            ...
+          ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at p (<anonymous>)
+    at LoginForm (components/auth/login-form.tsx:34:7)
+    at LoginPage (app\(auth)\login\page.tsx:11:7)
+  32 |         </SubmitButton>
+  33 |       </form>
+> 34 |       <p className="mt-5 text-center text-sm text-muted">
+     |       ^
+  35 |         {t.auth.noAccount}{" "}
+  36 |         <Link href="/register" className="font-medium text-accent hover:underline">
+  37 |           {t.auth.createAccount}
+ GET /login 200 in 853ms (next.js: 645ms, proxy.ts: 23ms, application-code: 186ms)
+ GET /login 200 in 176ms (next.js: 10ms, proxy.ts: 13ms, application-code: 153ms)
+ GET /login 200 in 366ms (next.js: 239ms, proxy.ts: 12ms, application-code: 115ms)
+ GET /login 200 in 184ms (next.js: 11ms, proxy.ts: 14ms, application-code: 158ms)
+ GET /login 200 in 133ms (next.js: 16ms, proxy.ts: 14ms, application-code: 102ms)
+ GET /login 200 in 115ms (next.js: 14ms, proxy.ts: 15ms, application-code: 86ms)
+✓ Compiled in 131ms
+✓ Compiled in 111ms
+ GET /login 200 in 121ms (next.js: 15ms, proxy.ts: 14ms, application-code: 92ms)
+ GET /login 200 in 243ms (next.js: 19ms, proxy.ts: 13ms, application-code: 211ms)
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="(auth)/log...">
+              <SegmentTrieNode>
+              <LoginPage>
+                <AuthShell>
+                  <main className="mx-auto fl...">
+                    <motion.div initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{duration:0.25, ...}}>
+                      <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                        <div>
+                        <div className="rounded-ca...">
+                          <LoginForm>
+                            <form>
+                            <p className="mt-5 text-...">
++                             New here?
+-                             {" "}
+                              ...
+            ...
+          ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at p (<anonymous>)
+    at LoginForm (components/auth/login-form.tsx:34:7)
+    at LoginPage (app\(auth)\login\page.tsx:11:7)
+  32 |         </SubmitButton>
+  33 |       </form>
+> 34 |       <p className="mt-5 text-center text-sm text-muted">
+     |       ^
+  35 |         {t.auth.noAccount}{" "}
+  36 |         <Link href="/register" className="font-medium text-accent hover:underline">
+  37 |           {t.auth.createAccount}
+ GET /register 200 in 2.8s (next.js: 2.7s, proxy.ts: 13ms, application-code: 77ms)
+ GET /register 200 in 226ms (next.js: 140ms, proxy.ts: 18ms, application-code: 67ms)
+ GET /api/health 200 in 2.8s (next.js: 1722ms, proxy.ts: 10ms, application-code: 1112ms)
+ GET /login 200 in 156ms (next.js: 48ms, proxy.ts: 6ms, application-code: 102ms)
+ GET /register 200 in 151ms (next.js: 65ms, proxy.ts: 7ms, application-code: 79ms)
+ GET /register 200 in 113ms (next.js: 57ms, proxy.ts: 11ms, application-code: 45ms)
+✓ Compiled in 752ms
+ GET /register 200 in 469ms (next.js: 256ms, proxy.ts: 14ms, application-code: 198ms)
+ GET /register 200 in 215ms (next.js: 106ms, proxy.ts: 23ms, application-code: 87ms)
+ GET /login 200 in 119ms (next.js: 75ms, proxy.ts: 6ms, application-code: 38ms)
+ GET /register 200 in 78ms (next.js: 24ms, proxy.ts: 10ms, application-code: 44ms)
+ GET /register 200 in 161ms (next.js: 14ms, proxy.ts: 14ms, application-code: 132ms)
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="(auth)/reg...">
+          <SegmentTrieNode>
+          <RegisterPage>
+            <AuthShell>
+              <main className="mx-auto fl...">
+                <motion.div initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{duration:0.25, ...}}>
+                  <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                    <div>
+                    <div className="rounded-ca...">
+                      <RegisterForm>
+                        <form action={function bound dispatchActionState} className="space-y-4">
+                          <FormError>
+                          <Field label="Full name" name="fullName" autoComplete="name" error={undefined} required={true}>
+                            <div>
+                              <label htmlFor="_R_4qinebn5rlb_" className="mb-1.5 block text-sm font-medium">
++                               Full name
+-                               
+                              ...
+                          ...
+                        ...
+        ...
+      ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at label (<anonymous>)
+    at Field (components/ui/form.tsx:14:7)
+    at RegisterForm (components/auth/register-form.tsx:34:9)
+    at RegisterPage (app\(auth)\register\page.tsx:11:7)
+  12 |   return (
+  13 |     <div>
+> 14 |       <label htmlFor={id} className="mb-1.5 block text-sm font-medium">
+     |       ^
+  15 |         {label}
+  16 |       </label>
+  17 |       <input
+  Reload env: .env.local
+ GET /register 200 in 1632ms (next.js: 955ms, proxy.ts: 462ms, application-code: 215ms)
+ GET /register 200 in 1624ms (next.js: 1079ms, proxy.ts: 467ms, application-code: 78ms)
+ GET /register 200 in 508ms (next.js: 81ms, proxy.ts: 18ms, application-code: 409ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/register" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="(auth)/reg...">
+            <SegmentTrieNode>
+            <RegisterPage>
+              <AuthShell title="Create you..." subtitle="An admin w...">
+                <main className="mx-auto fl...">
+                  <motion.div initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{duration:0.25, ...}}>
+                    <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                      <div className="mb-8 flex ...">
+                        <div className="mb-4 grid ...">
+                          <Coffee className="size-8" aria-hidden={true}>
+                            <svg
+                              ref={null}
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={24}
+                              height={24}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="lucide lucide-coffee size-8"
+                              aria-hidden={true}
+-                             data-darkreader-inline-stroke=""
+-                             style={{--darkreader-inline-stroke:"currentColor"}}
+                            >
+                        ...
+                      ...
+          ...
+        ...
+ 
+✓ Compiled in 1477ms
+[browser] ./actions/auth.ts:5:1
+Error: Export usernameToEmail doesn't exist in target module
+  3 | import { headers } from "next/headers";
+  4 | import { redirect } from "next/navigation";
+> 5 | import { usernameToEmail } from "@/lib/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { rateLimit } from "@/lib/ratelimit";
+  7 | import { createAdminClient } from "@/lib/supabase/admin";
+  8 | import { createClient } from "@/lib/supabase/server";
+
+The export usernameToEmail was not found in module [project]/lib/auth.ts [app-rsc] (ecmascript).
+Did you mean to import requireProfile?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. 
+[browser] ./actions/auth.ts:5:1
+Error: Export usernameToEmail doesn't exist in target module
+  3 | import { headers } from "next/headers";
+  4 | import { redirect } from "next/navigation";
+> 5 | import { usernameToEmail } from "@/lib/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { rateLimit } from "@/lib/ratelimit";
+  7 | import { createAdminClient } from "@/lib/supabase/admin";
+  8 | import { createClient } from "@/lib/supabase/server";
+
+The export usernameToEmail was not found in module [project]/lib/auth.ts [app-rsc] (ecmascript).
+Did you mean to import requireProfile?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. 
+[browser] ./actions/auth.ts:5:1
+Error: Export usernameToEmail doesn't exist in target module
+  3 | import { headers } from "next/headers";
+  4 | import { redirect } from "next/navigation";
+> 5 | import { usernameToEmail } from "@/lib/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { rateLimit } from "@/lib/ratelimit";
+  7 | import { createAdminClient } from "@/lib/supabase/admin";
+  8 | import { createClient } from "@/lib/supabase/server";
+
+The export usernameToEmail was not found in module [project]/lib/auth.ts [app-rsc] (ecmascript).
+Did you mean to import requireProfile?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. 
+[browser] ./actions/auth.ts:5:1
+Error: Export usernameToEmail doesn't exist in target module
+  3 | import { headers } from "next/headers";
+  4 | import { redirect } from "next/navigation";
+> 5 | import { usernameToEmail } from "@/lib/auth";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { rateLimit } from "@/lib/ratelimit";
+  7 | import { createAdminClient } from "@/lib/supabase/admin";
+  8 | import { createClient } from "@/lib/supabase/server";
+
+The export usernameToEmail was not found in module [project]/lib/auth.ts [app-rsc] (ecmascript).
+Did you mean to import requireProfile?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. 
+✓ Compiled in 1206ms
+ GET /register 200 in 1362ms (next.js: 421ms, proxy.ts: 237ms, application-code: 704ms)
+ GET /register 200 in 1367ms (next.js: 559ms, proxy.ts: 328ms, application-code: 480ms)
+ GET /register 200 in 503ms (next.js: 102ms, proxy.ts: 74ms, application-code: 327ms)
+ GET /register 200 in 483ms (next.js: 265ms, proxy.ts: 69ms, application-code: 148ms)
+✓ Compiled in 1030ms
+ GET /register 200 in 419ms (next.js: 113ms, proxy.ts: 35ms, application-code: 270ms)
+ GET /register 200 in 405ms (next.js: 219ms, proxy.ts: 35ms, application-code: 150ms)
+ GET /register 200 in 326ms (next.js: 110ms, proxy.ts: 17ms, application-code: 199ms)
+ GET /register 200 in 101ms (next.js: 11ms, proxy.ts: 13ms, application-code: 78ms)
+ GET /register 200 in 237ms (next.js: 26ms, proxy.ts: 15ms, application-code: 197ms)
+  Reload env: .env.local
+ GET /register 200 in 1052ms (next.js: 438ms, proxy.ts: 474ms, application-code: 140ms)
+ GET /register 200 in 564ms (next.js: 470ms, proxy.ts: 39ms, application-code: 54ms)
+✓ Compiled in 296ms
+ GET /register 200 in 893ms (next.js: 310ms, proxy.ts: 26ms, application-code: 556ms)
+ GET /register 200 in 867ms (next.js: 428ms, proxy.ts: 55ms, application-code: 384ms)
+ GET /login 200 in 2.1s (next.js: 945ms, proxy.ts: 290ms, application-code: 887ms)
+✓ Compiled in 62ms
+ GET /login 200 in 744ms (next.js: 175ms, proxy.ts: 18ms, application-code: 551ms)
+✓ Compiled in 182ms
+✓ Compiled in 277ms
+ GET /register 200 in 1230ms (next.js: 816ms, proxy.ts: 33ms, application-code: 381ms)
+ GET /login 200 in 1245ms (next.js: 502ms, proxy.ts: 29ms, application-code: 713ms)
+ GET /register 200 in 446ms (next.js: 194ms, proxy.ts: 36ms, application-code: 216ms)
+ GET /login 200 in 518ms (next.js: 125ms, proxy.ts: 22ms, application-code: 372ms)
+✓ Compiled in 372ms
+✓ Compiled in 131ms
+✓ Compiled in 119ms
+ GET /login 200 in 865ms (next.js: 371ms, proxy.ts: 12ms, application-code: 482ms)
+ GET /register 200 in 563ms (next.js: 145ms, proxy.ts: 164ms, application-code: 253ms)
+✓ Compiled in 159ms
+ GET /register 200 in 444ms (next.js: 54ms, proxy.ts: 16ms, application-code: 374ms)
+ GET /login 200 in 444ms (next.js: 235ms, proxy.ts: 13ms, application-code: 196ms)
+ GET /login 200 in 81ms (next.js: 10ms, proxy.ts: 8ms, application-code: 63ms)
+ GET /register 200 in 67ms (next.js: 21ms, proxy.ts: 11ms, application-code: 35ms)
+ GET /register 200 in 260ms (next.js: 13ms, proxy.ts: 17ms, application-code: 231ms)
+ GET /login 200 in 55ms (next.js: 9ms, proxy.ts: 7ms, application-code: 39ms)
+○ Compiling /home ...
+ GET /home 200 in 6.4s (next.js: 5.6s, proxy.ts: 121ms, application-code: 625ms)
+ POST /login 200 in 7.3s (next.js: 9ms, proxy.ts: 17ms, application-code: 7.2s)
+  └─ ƒ loginAction({}, {}) in 746ms actions/auth.ts
+ GET /home 200 in 490ms (next.js: 367ms, proxy.ts: 96ms, application-code: 27ms)
+ GET /history 200 in 2.9s (next.js: 1916ms, proxy.ts: 357ms, application-code: 632ms)
+ GET /home 200 in 592ms (next.js: 32ms, proxy.ts: 113ms, application-code: 447ms)
+○ Compiling /history ...
+ GET /drinks/new 200 in 3.3s (next.js: 2.8s, proxy.ts: 97ms, application-code: 433ms)
+ GET /drinks/new 200 in 527ms (next.js: 100ms, proxy.ts: 82ms, application-code: 345ms)
+ GET /register 200 in 428ms (next.js: 155ms, proxy.ts: 20ms, application-code: 252ms)
+ GET /login 200 in 423ms (next.js: 51ms, proxy.ts: 20ms, application-code: 352ms)
+ GET /drinks/new 200 in 1477ms (next.js: 343ms, proxy.ts: 415ms, application-code: 719ms)
+✓ Compiled in 171ms
+ GET /register 200 in 506ms (next.js: 71ms, proxy.ts: 13ms, application-code: 422ms)
+ GET /login 200 in 846ms (next.js: 207ms, proxy.ts: 12ms, application-code: 626ms)
+ GET /register 200 in 585ms (next.js: 399ms, proxy.ts: 46ms, application-code: 140ms)
+ GET /drinks/new 200 in 1086ms (next.js: 473ms, proxy.ts: 118ms, application-code: 495ms)
+ GET /login 200 in 234ms (next.js: 27ms, proxy.ts: 36ms, application-code: 172ms)
+ GET /drinks/new 200 in 631ms (next.js: 18ms, proxy.ts: 235ms, application-code: 378ms)
+✓ Compiled in 271ms
+✓ Compiled in 520ms
+ GET /register 200 in 499ms (next.js: 340ms, proxy.ts: 17ms, application-code: 142ms)
+ GET /login 200 in 140ms (next.js: 33ms, proxy.ts: 16ms, application-code: 92ms)
+ GET /drinks/new 200 in 458ms (next.js: 112ms, proxy.ts: 157ms, application-code: 189ms)
+✓ Compiled in 806ms
+ GET /register 200 in 306ms (next.js: 126ms, proxy.ts: 10ms, application-code: 169ms)
+ GET /login 200 in 393ms (next.js: 170ms, proxy.ts: 50ms, application-code: 173ms)
+ GET /drinks/new 200 in 689ms (next.js: 110ms, proxy.ts: 336ms, application-code: 244ms)
+✓ Compiled in 1190ms
+ GET /register 200 in 408ms (next.js: 288ms, proxy.ts: 15ms, application-code: 105ms)
+ GET /login 200 in 189ms (next.js: 73ms, proxy.ts: 28ms, application-code: 87ms)
+ GET /drinks/new 200 in 1194ms (next.js: 317ms, proxy.ts: 611ms, application-code: 266ms)
+  Reload env: .env.local
+ GET /register 200 in 992ms (next.js: 660ms, proxy.ts: 152ms, application-code: 180ms)
+ GET /login 200 in 791ms (next.js: 607ms, proxy.ts: 92ms, application-code: 93ms)
+ GET /drinks/new 200 in 1752ms (next.js: 247ms, proxy.ts: 773ms, application-code: 731ms)
+ GET /login 200 in 57ms (next.js: 7ms, proxy.ts: 6ms, application-code: 44ms)
+✓ Compiled in 150ms
+ GET /login 200 in 1134ms (next.js: 466ms, proxy.ts: 26ms, application-code: 642ms)
+ GET /login 200 in 1141ms (next.js: 654ms, proxy.ts: 20ms, application-code: 468ms)
+ GET /drinks/new 200 in 1138ms (next.js: 685ms, proxy.ts: 200ms, application-code: 252ms)
+✓ Compiled in 1552ms
+ GET /login 200 in 532ms (next.js: 375ms, proxy.ts: 11ms, application-code: 147ms)
+ GET /login 200 in 155ms (next.js: 7ms, proxy.ts: 13ms, application-code: 135ms)
+ GET /drinks/new 200 in 549ms (next.js: 121ms, proxy.ts: 155ms, application-code: 273ms)
+ GET /login 200 in 366ms (next.js: 80ms, proxy.ts: 8ms, application-code: 278ms)
+ GET /register 200 in 191ms (next.js: 71ms, proxy.ts: 9ms, application-code: 111ms)
+ GET /home 200 in 586ms (next.js: 112ms, proxy.ts: 91ms, application-code: 384ms)
+ POST /login 200 in 1406ms (next.js: 13ms, proxy.ts: 14ms, application-code: 1379ms)
+  └─ ƒ loginAction({}, {}) in 767ms actions/auth.ts
+ GET /drinks/new 200 in 473ms (next.js: 24ms, proxy.ts: 98ms, application-code: 351ms)
+ POST /drinks/new 200 in 883ms (next.js: 81ms, proxy.ts: 130ms, application-code: 672ms)
+  └─ ƒ placeOrder({"drinkId":"491b533b-c110-4e58-a9ee-9fb2009a4f82","milk":true,"note":null,"...":"1 item not stringified"}) in 275ms actions/orders.ts
+ GET /home 200 in 503ms (next.js: 45ms, proxy.ts: 103ms, application-code: 355ms)
+ GET /history 200 in 485ms (next.js: 72ms, proxy.ts: 91ms, application-code: 322ms)
+ GET /drinks/new 200 in 440ms (next.js: 9ms, proxy.ts: 98ms, application-code: 333ms)
+ GET /home 200 in 512ms (next.js: 90ms, proxy.ts: 96ms, application-code: 326ms)
+ GET /home 200 in 640ms (next.js: 7ms, proxy.ts: 181ms, application-code: 453ms)
+ GET /login 200 in 97ms (next.js: 28ms, proxy.ts: 11ms, application-code: 58ms)
+ POST /home 200 in 589ms (next.js: 7ms, proxy.ts: 366ms, application-code: 215ms)
+  └─ ƒ logoutAction() in 99ms actions/auth.ts
+ GET /home 200 in 512ms (next.js: 8ms, proxy.ts: 126ms, application-code: 379ms)
+ POST /login 200 in 966ms (next.js: 8ms, proxy.ts: 9ms, application-code: 950ms)
+  └─ ƒ loginAction({}, {}) in 421ms actions/auth.ts
+ GET /history 200 in 1274ms (next.js: 99ms, proxy.ts: 677ms, application-code: 498ms)
+ GET /home 200 in 446ms (next.js: 7ms, proxy.ts: 84ms, application-code: 356ms)
+ GET /drinks/new 200 in 465ms (next.js: 21ms, proxy.ts: 108ms, application-code: 336ms)
+ GET /history 200 in 433ms (next.js: 7ms, proxy.ts: 92ms, application-code: 334ms)
+ GET /home 200 in 398ms (next.js: 7ms, proxy.ts: 80ms, application-code: 312ms)
+ GET /login 200 in 785ms (next.js: 76ms, proxy.ts: 16ms, application-code: 693ms)
+ GET /home 200 in 4.7s (next.js: 22ms, proxy.ts: 1560ms, application-code: 3.1s)
+ GET /home 200 in 28.5s (next.js: 230ms, proxy.ts: 27.0s, application-code: 1306ms)
